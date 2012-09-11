@@ -1,0 +1,201 @@
+.jsPlumb-editor-toolbar{
+    display: inline-block;
+    float: left;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #eee;
+    border-right: none;
+}
+.jsPlumb-editor-canvas{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #000;
+    overflow: auto;
+    text-align: center;
+}
+
+.jsPlumb-editor-toolbar-title{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid;
+    background-color: #555;
+    width: 100%;
+    color: #FFF;
+}
+.jsPlumb-editor-toolbar-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jsPlumb-editor-toolbar-item{
+    border: 3px solid #FFF;
+    background: #DFDFDF;
+    margin: 0.5em 0.25em;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0 0 5px #000;
+    width: 80%;
+}
+.jsPlumb-editor-toolbar-item .jsPlumb-editor-module{
+    cursor: move;
+}
+
+.jsPlumb-editor-toolbar-item .jsPlumb-editor-module img{
+    width: 50%;
+}
+
+.jsPlumb-editor-module.ui-draggable-dragging{
+    border: 1px solid;
+    width: 80px;
+}
+
+.jsPlumb-editor-menubar{
+    display: inline-block;
+    float: left;
+    width: 80%;
+    height: 2em;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.jsPlumb-editor-menubar-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jsPlumb-editor-menubar-item{
+    display: inline-block;
+    width: auto;
+}
+.jsPlumb-editor-menu-button{
+    background-color: transparent;
+    padding: 0 0.25em;
+}
+
+.jsPlumb-editor-menu-button span.ss_sprite{
+    padding-bottom: 0;
+    margin: 0 0.25em 0 0;
+}
+
+.jsplumb-editor-container.jsplumb-editor-selected-container{
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+
+.jsplumb-editor-container {
+    position:absolute;
+    z-index:4;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    cursor:move;
+    padding: 0.25em 0.5em;
+}
+
+.jsplumb-editor-container img{
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+.jsplumb-editor-container label{
+    display: block;
+    margin: 0.25em auto;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.jsplumb-editor-end-point {
+    position:absolute;
+    float:right;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    cursor:pointer;
+    background-image: url("images/terminals.png");
+    background-position: 0 91px
+}
+.jsplumb-editor-end-point:hover {
+    background-position: 0 30px
+}
+.jsplumb-editor-end-point-right {
+    right: -25px;
+    top: 50%;
+    margin-top: -20px;
+}
+.jsplumb-editor-end-point-left {
+    left: -25px;
+    top: 50%;
+    margin-top: -20px;
+}
+.jsplumb-editor-end-point-top {
+    top: -25px;
+    left: 50%;
+    margin-left: -15px;
+}
+.jsplumb-editor-end-point-bottom {
+    bottom: -25px;
+    left: 50%;
+    margin-left: -15px;
+}
+
+._jsPlumb_endpoint {
+    z-index:3;
+}
+
+.jsplumb-editor-drag-hover { border:1px dotted red; }
+
+
+div.jsplumb-editor-container-button {
+    position:absolute;
+    right: 0;
+    top: 0;
+    cursor:pointer;
+    padding-bottom: 0;
+}
+.jsplumb-editor-container-button:hover{
+    background-color: #ccc;
+}
+
+.jsplumb-editor-connection-label{
+
+}
+
+/** End point buttons **/
+.jsplumb-editor-ep-buttons{
+    position:absolute;
+}
+.jsplumb-editor-ep-buttons-right {
+    right: -40px;
+    top: 50%;
+    margin-top: -20px;
+}
+.jsplumb-editor-ep-buttons-left {
+    left: -40px;
+    top: 50%;
+    margin-top: -20px;
+}
+.jsplumb-editor-ep-buttons-top {
+    top: -40px;
+    left: 50%;
+    margin-left: -15px;
+}
+.jsplumb-editor-ep-buttons-bottom {
+    bottom: -40px;
+    left: 50%;
+    margin-left: -15px;
+}
+
+.jsplumb-editor-ep-buttons .jsplumb-editor-ep-button{
+    cursor: pointer;
+    height: 16px;
+    margin: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    width: 16px;
+}
+.jsplumb-editor-ep-buttons .jsplumb-editor-ep-button:hover{
+    background-color: antiquewhite;
+}
